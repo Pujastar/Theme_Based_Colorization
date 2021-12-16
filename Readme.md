@@ -1,4 +1,4 @@
-
+#Theme Based Colorization
 
 Prerequisites
 1. Python (Anaconda) 3.5.4
@@ -17,7 +17,7 @@ c. Output images : Contains output images when code is saved.
 d. Style images : Contains style images
 e. Static : Contains images required for website to run
 f. Test images : Contains test images for each iteration as given in command.
-3. Upload the ìdeep_learning_projectî folder in your google drive.
+3. Upload the ‚Äúdeep_learning_project‚Äù folder in your google drive.
 4. The VGG19 model can be downloaded by running this in the terminal Or from the link :
 wget http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat
 5. Upload the vgg19 model file in the project folder
@@ -25,10 +25,10 @@ wget http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat
 Steps to run
 1. Training and testing
 We first need to train the model
-a. Run the ìTesting and training.ipynbî file in Google Collab.
+a. Run the ‚ÄúTesting and training.ipynb‚Äù file in Google Collab.
 b. While running the cells in the file read the instructions given above them.
 2. Evaluation
 Once training and testing is done and checkpoints are saved we can just use those
 checkpoints to run the code.
-a. Run the ìEvaluate.ipynbîfile in Google Collab.
+a. Run the ‚ÄúEvaluate.ipynb‚Äùfile in Google Collab.
 b. While running the cells in the file read the instructions given above them
